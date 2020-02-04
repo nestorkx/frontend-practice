@@ -1,0 +1,12 @@
+{
+  "title": "Xcaret Group",
+  "todo-list": "TODO List",
+  "task": "Task",
+  "add": "Add",
+  "edit": "Edit",
+  "delete": "Delete",
+  "add-task": "Please type a task..",
+  "are-you-sure": "Are you sure?",
+  "delete-warning": "Once deleted, you will not be able to recover this data",
+  "success-delete": "Has been delete successful!"
+}

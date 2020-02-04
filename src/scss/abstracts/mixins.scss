@@ -1,0 +1,52 @@
+// Portrait extra-small phone
+@mixin mobile-xs {
+  @media screen and (max-width: $breakpoint-xsmall) {
+    @content
+  }
+}
+
+// Portrait normal mobile phone
+@mixin mobile {
+  @media screen and (max-width: $breakpoint-medium - 1px) {
+    @content
+  }
+}
+
+// Landscape
+@mixin mobile-only {
+  @media only screen and (min-width: $breakpoint-small) and (max-width: $breakpoint-medium - 1px) {
+    @content
+  }
+}
+
+// Landscape
+@mixin tablet {
+  @media screen and (min-width: $breakpoint-medium), print {
+    @content
+  }
+}
+
+// Portrait
+@mixin tablet-only {
+  @media only screen and (min-width: $breakpoint-medium) and (max-width: $breakpoint-large - 1px) {
+    @content
+  }
+}
+
+@mixin desktop {
+  @media screen and (min-width: $breakpoint-large) {
+    @content
+  }
+}
+
+@mixin desktop-only {
+  @media only screen and (min-width: $breakpoint-large) and (max-width: $breakpoint-xlarge - 1px) {
+    @content
+  }
+}
+
+@mixin desktop-xl {
+  @media screen and (min-width: $breakpoint-xlarge) {
+    @content
+  }
+}

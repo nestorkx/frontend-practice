@@ -1,0 +1,12 @@
+{
+  "title": "Grupo Xcaret",
+  "todo-list": "Lista de Tareas",
+  "task": "Tarea",
+  "add": "Agregar",
+  "edit": "Editar",
+  "delete": "Eliminar",
+  "add-task": "Ingrese una tarea..",
+  "are-you-sure": "¿Esta seguro?",
+  "delete-warning": "Una vez eliminado, no podrá recuperar la información",
+  "success-delete": "Se ha eliminado correctamente!"
+}

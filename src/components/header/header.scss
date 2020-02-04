@@ -1,0 +1,47 @@
+.navbar {
+  @at-root #{&}__icon {
+    &.usa {
+      @at-root #{&}--color-white {
+        fill: #F0F0F0;
+      }
+
+      @at-root #{&}--color-red {
+        fill: #D80027;
+      }
+
+      @at-root #{&}--color-blue {
+        fill: #0052B4;
+      }
+
+      @at-root #{&}--color-green {
+        fill: #6DA544;
+      }
+
+      @at-root #{&}--color-orange {
+        fill: #FF9811;
+      }
+    }
+
+    &.mex {
+      @at-root #{&}--color-white {
+        fill: #F0F0F0;
+      }
+
+      @at-root #{&}--color-red {
+        fill: #D80027;
+      }
+
+      @at-root #{&}--color-blue {
+        fill: #0052B4;
+      }
+
+      @at-root #{&}--color-green {
+        fill: #6DA544;
+      }
+
+      @at-root #{&}--color-orange {
+        fill: #FF9811;
+      }
+    }
+  }
+}

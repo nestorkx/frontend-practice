@@ -1,0 +1,68 @@
+{
+  "name": "frontend-practice",
+  "version": "1.0.0",
+  "description": "Este es una implementacion de la capa front para el test practico GX",
+  "main": "index.js",
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.4.0",
+    "@testing-library/user-event": "^7.2.1",
+    "autoprefixer": "^9.7.4",
+    "axios": "^0.19.2",
+    "i18next": "^19.1.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-i18next": "^11.3.1",
+    "react-scripts": "3.3.1",
+    "sweetalert": "^2.1.2",
+    "tailwindcss": "^1.1.4"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "7.14.3",
+    "prettier": "^1.18.2",
+    "postcss-loader": "^3.0.0",
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint --ext .jsx,.js src/",
+    "lint:fix": "eslint src/ --ext .jsx,.js --fix"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nestorkx/frontend-practice.git"
+  },
+  "author": "Nestor Kauil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nestorkx/frontend-practice/issues"
+  },
+  "homepage": "localhost:3000/"
+}
